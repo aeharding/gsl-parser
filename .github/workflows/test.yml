@@ -24,4 +24,6 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: npm link
+      - run: yarn check-types
+      - run: yarn check-formatting
       - run: yarn test

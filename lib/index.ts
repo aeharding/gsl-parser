@@ -1,6 +1,7 @@
 // Documentation: https://rucsoundings.noaa.gov/raob_format.html
 
 export interface Rap {
+  stationId: string;
   headerLine: string;
   type: string;
   date: string;
@@ -155,23 +156,19 @@ function parseIdentificationLine([
 }
 
 interface RapStationId {
-  lat: number;
-  lon: number;
+  stationId: string;
   sonde: Sonde;
   windUnits: WindUnits;
 }
 
 function parseStationIdLine([
   _,
-  latlon,
+  stationId,
   sonde,
   windUnits,
 ]: string[]): RapStationId {
-  const [lat, lon] = latlon.split(",").map((l) => +l);
-
   return {
-    lat,
-    lon,
+    stationId,
     sonde: +sonde,
     windUnits: windUnits as WindUnits,
   };
