@@ -200,7 +200,7 @@ function parseToNumber<K>(
   const ret = {} as Record<keyof K, number>;
 
   Object.keys(data).forEach((key) => {
-    ret[key as keyof K] = parseInt(data[key as keyof K]);
+    ret[key as keyof K] = +data[key as keyof K];
   });
 
   return ret;
