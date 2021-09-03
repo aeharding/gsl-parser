@@ -1,6 +1,6 @@
 {
   "name": "gsl-parser",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Parse GSL format NOAA RUC soundings",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -17,18 +17,19 @@
     "check-types": "tsc --noEmit",
     "check-formatting": "prettier --check '**/*.{js,json,css,md,scss,tsx,ts}'",
     "watch": "watch 'yarn build' lib",
-    "test": "yarn check-types && yarn check-formatting"
+    "test": "TZ=UTC ./test.sh"
   },
   "files": [
     "dist",
     "assets"
   ],
   "devDependencies": {
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.4",
+    "@types/fs-extra": "^9.0.12",
+    "fs-extra": "^10.0.0",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2",
     "watch": "^1.0.2"
   },
-  "dependencies": {
-    "prettier": "^2.3.2"
-  }
+  "dependencies": {}
 }
