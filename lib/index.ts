@@ -47,11 +47,8 @@ export default function parseReports(asciiReports: string): Rap[] {
 function parseReport(asciiReport: string): Rap {
   const lines = asciiReport.split("\n");
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const headerLine = lines.shift();
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const dateLine = lines.shift();
-
   const capeCinLine = lines.shift();
 
   if (!headerLine || !dateLine || !capeCinLine)
