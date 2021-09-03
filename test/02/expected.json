@@ -1,0 +1,1472 @@
+[
+  {
+    "headerLine": "Op40 analysis valid for grid point 6.3 nm / 173 deg from DEN:",
+    "date": "2021-09-03T01:00:00.000Z",
+    "type": "Op40",
+    "cape": 100,
+    "cin": -28,
+    "wban": 23062,
+    "wmo": 72565,
+    "lat": 39,
+    "lon": 104,
+    "elev": 1655,
+    "rtime": 99999,
+    "stationId": "DEN",
+    "sonde": 12,
+    "windUnits": "kt",
+    "data": [
+      {
+        "pressure": 8277,
+        "height": 1724,
+        "temp": 250,
+        "dewpt": 76,
+        "windDir": 327,
+        "windSpd": 3
+      },
+      {
+        "pressure": 8253,
+        "height": 1753,
+        "temp": 248,
+        "dewpt": 76,
+        "windDir": 334,
+        "windSpd": 5
+      },
+      {
+        "pressure": 8208,
+        "height": 1804,
+        "temp": 242,
+        "dewpt": 76,
+        "windDir": 335,
+        "windSpd": 6
+      },
+      {
+        "pressure": 8131,
+        "height": 1888,
+        "temp": 234,
+        "dewpt": 74,
+        "windDir": 335,
+        "windSpd": 7
+      },
+      {
+        "pressure": 8018,
+        "height": 2007,
+        "temp": 223,
+        "dewpt": 69,
+        "windDir": 332,
+        "windSpd": 6
+      },
+      {
+        "pressure": 7876,
+        "height": 2162,
+        "temp": 208,
+        "dewpt": 69,
+        "windDir": 334,
+        "windSpd": 5
+      },
+      {
+        "pressure": 7708,
+        "height": 2344,
+        "temp": 187,
+        "dewpt": 67,
+        "windDir": 338,
+        "windSpd": 4
+      },
+      {
+        "pressure": 7528,
+        "height": 2546,
+        "temp": 168,
+        "dewpt": 63,
+        "windDir": 352,
+        "windSpd": 4
+      },
+      {
+        "pressure": 7336,
+        "height": 2768,
+        "temp": 150,
+        "dewpt": 59,
+        "windDir": 15,
+        "windSpd": 4
+      },
+      {
+        "pressure": 7125,
+        "height": 3015,
+        "temp": 126,
+        "dewpt": 51,
+        "windDir": 24,
+        "windSpd": 6
+      },
+      {
+        "pressure": 7000,
+        "height": 3162,
+        "temp": 113,
+        "dewpt": 44,
+        "windDir": 22,
+        "windSpd": 7
+      },
+      {
+        "pressure": 6895,
+        "height": 3289,
+        "temp": 102,
+        "dewpt": 38,
+        "windDir": 20,
+        "windSpd": 7
+      },
+      {
+        "pressure": 6647,
+        "height": 3593,
+        "temp": 77,
+        "dewpt": 16,
+        "windDir": 8,
+        "windSpd": 8
+      },
+      {
+        "pressure": 6381,
+        "height": 3929,
+        "temp": 51,
+        "dewpt": -12,
+        "windDir": 353,
+        "windSpd": 8
+      },
+      {
+        "pressure": 6096,
+        "height": 4301,
+        "temp": 19,
+        "dewpt": -34,
+        "windDir": 338,
+        "windSpd": 6
+      },
+      {
+        "pressure": 5791,
+        "height": 4716,
+        "temp": -7,
+        "dewpt": -44,
+        "windDir": 301,
+        "windSpd": 6
+      },
+      {
+        "pressure": 5463,
+        "height": 5181,
+        "temp": -32,
+        "dewpt": -53,
+        "windDir": 274,
+        "windSpd": 10
+      },
+      {
+        "pressure": 5113,
+        "height": 5692,
+        "temp": -65,
+        "dewpt": -71,
+        "windDir": 272,
+        "windSpd": 13
+      },
+      {
+        "pressure": 5000,
+        "height": 5862,
+        "temp": -75,
+        "dewpt": -83,
+        "windDir": 268,
+        "windSpd": 13
+      },
+      {
+        "pressure": 4767,
+        "height": 6227,
+        "temp": -97,
+        "dewpt": -110,
+        "windDir": 260,
+        "windSpd": 14
+      },
+      {
+        "pressure": 4449,
+        "height": 6757,
+        "temp": -131,
+        "dewpt": -158,
+        "windDir": 245,
+        "windSpd": 20
+      },
+      {
+        "pressure": 4156,
+        "height": 7273,
+        "temp": -155,
+        "dewpt": -205,
+        "windDir": 241,
+        "windSpd": 23
+      },
+      {
+        "pressure": 4000,
+        "height": 7561,
+        "temp": -170,
+        "dewpt": -230,
+        "windDir": 242,
+        "windSpd": 24
+      },
+      {
+        "pressure": 3886,
+        "height": 7779,
+        "temp": -182,
+        "dewpt": -249,
+        "windDir": 242,
+        "windSpd": 25
+      },
+      {
+        "pressure": 3634,
+        "height": 8275,
+        "temp": -216,
+        "dewpt": -307,
+        "windDir": 244,
+        "windSpd": 31
+      },
+      {
+        "pressure": 3401,
+        "height": 8759,
+        "temp": -241,
+        "dewpt": -444,
+        "windDir": 245,
+        "windSpd": 39
+      },
+      {
+        "pressure": 3186,
+        "height": 9232,
+        "temp": -269,
+        "dewpt": -676,
+        "windDir": 242,
+        "windSpd": 43
+      },
+      {
+        "pressure": 3000,
+        "height": 9662,
+        "temp": -300,
+        "dewpt": -749,
+        "windDir": 238,
+        "windSpd": 45
+      },
+      {
+        "pressure": 2988,
+        "height": 9692,
+        "temp": -302,
+        "dewpt": -754,
+        "windDir": 238,
+        "windSpd": 45
+      },
+      {
+        "pressure": 2805,
+        "height": 10137,
+        "temp": -334,
+        "dewpt": -662,
+        "windDir": 239,
+        "windSpd": 49
+      },
+      {
+        "pressure": 2637,
+        "height": 10571,
+        "temp": -362,
+        "dewpt": -659,
+        "windDir": 244,
+        "windSpd": 53
+      },
+      {
+        "pressure": 2500,
+        "height": 10935,
+        "temp": -387,
+        "dewpt": -661,
+        "windDir": 247,
+        "windSpd": 55
+      },
+      {
+        "pressure": 2478,
+        "height": 10996,
+        "temp": -391,
+        "dewpt": -661,
+        "windDir": 248,
+        "windSpd": 55
+      },
+      {
+        "pressure": 2332,
+        "height": 11412,
+        "temp": -421,
+        "dewpt": -677,
+        "windDir": 247,
+        "windSpd": 54
+      },
+      {
+        "pressure": 2195,
+        "height": 11825,
+        "temp": -452,
+        "dewpt": -709,
+        "windDir": 243,
+        "windSpd": 52
+      },
+      {
+        "pressure": 2057,
+        "height": 12257,
+        "temp": -485,
+        "dewpt": -738,
+        "windDir": 241,
+        "windSpd": 54
+      },
+      {
+        "pressure": 1917,
+        "height": 12715,
+        "temp": -517,
+        "dewpt": -755,
+        "windDir": 242,
+        "windSpd": 56
+      },
+      {
+        "pressure": 1778,
+        "height": 13201,
+        "temp": -551,
+        "dewpt": -772,
+        "windDir": 244,
+        "windSpd": 51
+      },
+      {
+        "pressure": 1638,
+        "height": 13719,
+        "temp": -588,
+        "dewpt": -787,
+        "windDir": 245,
+        "windSpd": 46
+      },
+      {
+        "pressure": 1500,
+        "height": 14265,
+        "temp": -623,
+        "dewpt": -797,
+        "windDir": 241,
+        "windSpd": 42
+      },
+      {
+        "pressure": 1498,
+        "height": 14274,
+        "temp": -624,
+        "dewpt": -797,
+        "windDir": 241,
+        "windSpd": 42
+      },
+      {
+        "pressure": 1359,
+        "height": 14872,
+        "temp": -659,
+        "dewpt": -806,
+        "windDir": 235,
+        "windSpd": 41
+      },
+      {
+        "pressure": 1219,
+        "height": 15526,
+        "temp": -693,
+        "dewpt": -818,
+        "windDir": 233,
+        "windSpd": 42
+      },
+      {
+        "pressure": 1080,
+        "height": 16249,
+        "temp": -712,
+        "dewpt": -823,
+        "windDir": 241,
+        "windSpd": 39
+      },
+      {
+        "pressure": 1000,
+        "height": 16697,
+        "temp": -704,
+        "dewpt": -830,
+        "windDir": 246,
+        "windSpd": 28
+      },
+      {
+        "pressure": 940,
+        "height": 17058,
+        "temp": -697,
+        "dewpt": -835,
+        "windDir": 250,
+        "windSpd": 20
+      },
+      {
+        "pressure": 810,
+        "height": 17916,
+        "temp": -665,
+        "dewpt": -847,
+        "windDir": 197,
+        "windSpd": 13
+      },
+      {
+        "pressure": 706,
+        "height": 18755,
+        "temp": -641,
+        "dewpt": -871,
+        "windDir": 211,
+        "windSpd": 5
+      },
+      {
+        "pressure": 700,
+        "height": 18810,
+        "temp": -640,
+        "dewpt": -872,
+        "windDir": 207,
+        "windSpd": 5
+      },
+      {
+        "pressure": 622,
+        "height": 19566,
+        "temp": -620,
+        "dewpt": -888,
+        "windDir": 157,
+        "windSpd": 7
+      },
+      {
+        "pressure": 543,
+        "height": 20411,
+        "temp": -590,
+        "dewpt": -901,
+        "windDir": 185,
+        "windSpd": 5
+      },
+      {
+        "pressure": 500,
+        "height": 20929,
+        "temp": -569,
+        "dewpt": -905,
+        "windDir": 134,
+        "windSpd": 6
+      },
+      {
+        "pressure": 469,
+        "height": 21331,
+        "temp": -553,
+        "dewpt": -908,
+        "windDir": 94,
+        "windSpd": 7
+      },
+      {
+        "pressure": 401,
+        "height": 22337,
+        "temp": -546,
+        "dewpt": -919,
+        "windDir": 110,
+        "windSpd": 9
+      },
+      {
+        "pressure": 338,
+        "height": 23452,
+        "temp": -514,
+        "dewpt": -927,
+        "windDir": 102,
+        "windSpd": 8
+      },
+      {
+        "pressure": 278,
+        "height": 24715,
+        "temp": -499,
+        "dewpt": -942,
+        "windDir": 94,
+        "windSpd": 8
+      },
+      {
+        "pressure": 223,
+        "height": 26176,
+        "temp": -489,
+        "dewpt": -945,
+        "windDir": 100,
+        "windSpd": 13
+      },
+      {
+        "pressure": 171,
+        "height": 27929,
+        "temp": -464,
+        "dewpt": -949,
+        "windDir": 93,
+        "windSpd": 14
+      },
+      {
+        "pressure": 123,
+        "height": 30198,
+        "temp": -427,
+        "dewpt": -981,
+        "windDir": 97,
+        "windSpd": 25
+      }
+    ]
+  },
+  {
+    "headerLine": "Op40 01 h forecast valid for grid point 6.3 nm / 173 deg from DEN:",
+    "date": "2021-09-03T02:00:00.000Z",
+    "type": "Op40",
+    "cape": 120,
+    "cin": -30,
+    "wban": 23062,
+    "wmo": 72565,
+    "lat": 39,
+    "lon": 104,
+    "elev": 1655,
+    "rtime": 99999,
+    "stationId": "DEN",
+    "sonde": 12,
+    "windUnits": "kt",
+    "data": [
+      {
+        "pressure": 8279,
+        "height": 1724,
+        "temp": 242,
+        "dewpt": 76,
+        "windDir": 231,
+        "windSpd": 2
+      },
+      {
+        "pressure": 8254,
+        "height": 1753,
+        "temp": 244,
+        "dewpt": 76,
+        "windDir": 269,
+        "windSpd": 2
+      },
+      {
+        "pressure": 8209,
+        "height": 1804,
+        "temp": 241,
+        "dewpt": 76,
+        "windDir": 295,
+        "windSpd": 2
+      },
+      {
+        "pressure": 8132,
+        "height": 1887,
+        "temp": 233,
+        "dewpt": 73,
+        "windDir": 305,
+        "windSpd": 2
+      },
+      {
+        "pressure": 8020,
+        "height": 2007,
+        "temp": 222,
+        "dewpt": 70,
+        "windDir": 308,
+        "windSpd": 1
+      },
+      {
+        "pressure": 7877,
+        "height": 2161,
+        "temp": 206,
+        "dewpt": 68,
+        "windDir": 319,
+        "windSpd": 1
+      },
+      {
+        "pressure": 7709,
+        "height": 2343,
+        "temp": 188,
+        "dewpt": 65,
+        "windDir": 32,
+        "windSpd": 0
+      },
+      {
+        "pressure": 7529,
+        "height": 2546,
+        "temp": 169,
+        "dewpt": 63,
+        "windDir": 84,
+        "windSpd": 2
+      },
+      {
+        "pressure": 7337,
+        "height": 2768,
+        "temp": 150,
+        "dewpt": 60,
+        "windDir": 82,
+        "windSpd": 3
+      },
+      {
+        "pressure": 7125,
+        "height": 3015,
+        "temp": 126,
+        "dewpt": 53,
+        "windDir": 73,
+        "windSpd": 5
+      },
+      {
+        "pressure": 7000,
+        "height": 3163,
+        "temp": 114,
+        "dewpt": 46,
+        "windDir": 63,
+        "windSpd": 5
+      },
+      {
+        "pressure": 6896,
+        "height": 3289,
+        "temp": 103,
+        "dewpt": 40,
+        "windDir": 55,
+        "windSpd": 5
+      },
+      {
+        "pressure": 6648,
+        "height": 3593,
+        "temp": 79,
+        "dewpt": 12,
+        "windDir": 34,
+        "windSpd": 5
+      },
+      {
+        "pressure": 6382,
+        "height": 3930,
+        "temp": 53,
+        "dewpt": -17,
+        "windDir": 0,
+        "windSpd": 4
+      },
+      {
+        "pressure": 6097,
+        "height": 4302,
+        "temp": 23,
+        "dewpt": -31,
+        "windDir": 301,
+        "windSpd": 4
+      },
+      {
+        "pressure": 5791,
+        "height": 4717,
+        "temp": -5,
+        "dewpt": -37,
+        "windDir": 280,
+        "windSpd": 9
+      },
+      {
+        "pressure": 5463,
+        "height": 5182,
+        "temp": -35,
+        "dewpt": -47,
+        "windDir": 278,
+        "windSpd": 12
+      },
+      {
+        "pressure": 5113,
+        "height": 5693,
+        "temp": -71,
+        "dewpt": -71,
+        "windDir": 270,
+        "windSpd": 12
+      },
+      {
+        "pressure": 5000,
+        "height": 5864,
+        "temp": -81,
+        "dewpt": -83,
+        "windDir": 263,
+        "windSpd": 13
+      },
+      {
+        "pressure": 4768,
+        "height": 6227,
+        "temp": -103,
+        "dewpt": -107,
+        "windDir": 248,
+        "windSpd": 15
+      },
+      {
+        "pressure": 4449,
+        "height": 6756,
+        "temp": -132,
+        "dewpt": -149,
+        "windDir": 241,
+        "windSpd": 21
+      },
+      {
+        "pressure": 4156,
+        "height": 7273,
+        "temp": -151,
+        "dewpt": -205,
+        "windDir": 240,
+        "windSpd": 23
+      },
+      {
+        "pressure": 4000,
+        "height": 7561,
+        "temp": -166,
+        "dewpt": -248,
+        "windDir": 243,
+        "windSpd": 26
+      },
+      {
+        "pressure": 3886,
+        "height": 7780,
+        "temp": -177,
+        "dewpt": -280,
+        "windDir": 245,
+        "windSpd": 28
+      },
+      {
+        "pressure": 3634,
+        "height": 8277,
+        "temp": -207,
+        "dewpt": -397,
+        "windDir": 247,
+        "windSpd": 37
+      },
+      {
+        "pressure": 3401,
+        "height": 8763,
+        "temp": -235,
+        "dewpt": -496,
+        "windDir": 246,
+        "windSpd": 44
+      },
+      {
+        "pressure": 3186,
+        "height": 9236,
+        "temp": -267,
+        "dewpt": 997259,
+        "windDir": 241,
+        "windSpd": 46
+      },
+      {
+        "pressure": 3000,
+        "height": 9667,
+        "temp": -299,
+        "dewpt": 61639,
+        "windDir": 240,
+        "windSpd": 49
+      },
+      {
+        "pressure": 2988,
+        "height": 9696,
+        "temp": -301,
+        "dewpt": -701,
+        "windDir": 240,
+        "windSpd": 49
+      },
+      {
+        "pressure": 2805,
+        "height": 10142,
+        "temp": -330,
+        "dewpt": -640,
+        "windDir": 242,
+        "windSpd": 54
+      },
+      {
+        "pressure": 2637,
+        "height": 10576,
+        "temp": -359,
+        "dewpt": -644,
+        "windDir": 246,
+        "windSpd": 57
+      },
+      {
+        "pressure": 2500,
+        "height": 10941,
+        "temp": -386,
+        "dewpt": -649,
+        "windDir": 248,
+        "windSpd": 58
+      },
+      {
+        "pressure": 2478,
+        "height": 11002,
+        "temp": -390,
+        "dewpt": -650,
+        "windDir": 248,
+        "windSpd": 58
+      },
+      {
+        "pressure": 2332,
+        "height": 11418,
+        "temp": -421,
+        "dewpt": -676,
+        "windDir": 246,
+        "windSpd": 56
+      },
+      {
+        "pressure": 2195,
+        "height": 11832,
+        "temp": -450,
+        "dewpt": -711,
+        "windDir": 243,
+        "windSpd": 55
+      },
+      {
+        "pressure": 2057,
+        "height": 12264,
+        "temp": -479,
+        "dewpt": -745,
+        "windDir": 243,
+        "windSpd": 56
+      },
+      {
+        "pressure": 1917,
+        "height": 12723,
+        "temp": -511,
+        "dewpt": -766,
+        "windDir": 245,
+        "windSpd": 55
+      },
+      {
+        "pressure": 1778,
+        "height": 13210,
+        "temp": -547,
+        "dewpt": -777,
+        "windDir": 248,
+        "windSpd": 51
+      },
+      {
+        "pressure": 1638,
+        "height": 13729,
+        "temp": -586,
+        "dewpt": -790,
+        "windDir": 249,
+        "windSpd": 46
+      },
+      {
+        "pressure": 1500,
+        "height": 14275,
+        "temp": -623,
+        "dewpt": -799,
+        "windDir": 242,
+        "windSpd": 42
+      },
+      {
+        "pressure": 1498,
+        "height": 14284,
+        "temp": -624,
+        "dewpt": -799,
+        "windDir": 242,
+        "windSpd": 42
+      },
+      {
+        "pressure": 1359,
+        "height": 14883,
+        "temp": -661,
+        "dewpt": -807,
+        "windDir": 233,
+        "windSpd": 41
+      },
+      {
+        "pressure": 1219,
+        "height": 15535,
+        "temp": -697,
+        "dewpt": -816,
+        "windDir": 234,
+        "windSpd": 42
+      },
+      {
+        "pressure": 1080,
+        "height": 16258,
+        "temp": -714,
+        "dewpt": -824,
+        "windDir": 245,
+        "windSpd": 36
+      },
+      {
+        "pressure": 1000,
+        "height": 16705,
+        "temp": -706,
+        "dewpt": -830,
+        "windDir": 250,
+        "windSpd": 25
+      },
+      {
+        "pressure": 940,
+        "height": 17065,
+        "temp": -699,
+        "dewpt": -835,
+        "windDir": 254,
+        "windSpd": 17
+      },
+      {
+        "pressure": 810,
+        "height": 17922,
+        "temp": -670,
+        "dewpt": -845,
+        "windDir": 199,
+        "windSpd": 11
+      },
+      {
+        "pressure": 706,
+        "height": 18759,
+        "temp": -647,
+        "dewpt": -870,
+        "windDir": 168,
+        "windSpd": 2
+      },
+      {
+        "pressure": 700,
+        "height": 18813,
+        "temp": -646,
+        "dewpt": -871,
+        "windDir": 167,
+        "windSpd": 2
+      },
+      {
+        "pressure": 622,
+        "height": 19568,
+        "temp": -625,
+        "dewpt": -887,
+        "windDir": 153,
+        "windSpd": 6
+      },
+      {
+        "pressure": 543,
+        "height": 20411,
+        "temp": -592,
+        "dewpt": -901,
+        "windDir": 161,
+        "windSpd": 4
+      },
+      {
+        "pressure": 500,
+        "height": 20929,
+        "temp": -571,
+        "dewpt": -906,
+        "windDir": 133,
+        "windSpd": 8
+      },
+      {
+        "pressure": 469,
+        "height": 21331,
+        "temp": -555,
+        "dewpt": -910,
+        "windDir": 111,
+        "windSpd": 11
+      },
+      {
+        "pressure": 401,
+        "height": 22338,
+        "temp": -541,
+        "dewpt": -921,
+        "windDir": 122,
+        "windSpd": 10
+      },
+      {
+        "pressure": 338,
+        "height": 23454,
+        "temp": -511,
+        "dewpt": -925,
+        "windDir": 104,
+        "windSpd": 8
+      },
+      {
+        "pressure": 278,
+        "height": 24718,
+        "temp": -499,
+        "dewpt": -939,
+        "windDir": 74,
+        "windSpd": 8
+      },
+      {
+        "pressure": 223,
+        "height": 26180,
+        "temp": -486,
+        "dewpt": -941,
+        "windDir": 89,
+        "windSpd": 10
+      },
+      {
+        "pressure": 171,
+        "height": 27934,
+        "temp": -464,
+        "dewpt": -950,
+        "windDir": 80,
+        "windSpd": 16
+      },
+      {
+        "pressure": 123,
+        "height": 30195,
+        "temp": -441,
+        "dewpt": -980,
+        "windDir": 97,
+        "windSpd": 21
+      }
+    ]
+  },
+  {
+    "headerLine": "Op40 02 h forecast valid for grid point 6.3 nm / 173 deg from DEN:",
+    "date": "2021-09-03T03:00:00.000Z",
+    "type": "Op40",
+    "cape": 160,
+    "cin": -27,
+    "wban": 23062,
+    "wmo": 72565,
+    "lat": 39,
+    "lon": 104,
+    "elev": 1655,
+    "rtime": 99999,
+    "stationId": "DEN",
+    "sonde": 12,
+    "windUnits": "kt",
+    "data": [
+      {
+        "pressure": 8279,
+        "height": 1724,
+        "temp": 233,
+        "dewpt": 78,
+        "windDir": 219,
+        "windSpd": 3
+      },
+      {
+        "pressure": 8255,
+        "height": 1753,
+        "temp": 238,
+        "dewpt": 78,
+        "windDir": 230,
+        "windSpd": 3
+      },
+      {
+        "pressure": 8210,
+        "height": 1804,
+        "temp": 235,
+        "dewpt": 79,
+        "windDir": 242,
+        "windSpd": 3
+      },
+      {
+        "pressure": 8133,
+        "height": 1887,
+        "temp": 229,
+        "dewpt": 78,
+        "windDir": 251,
+        "windSpd": 2
+      },
+      {
+        "pressure": 8020,
+        "height": 2007,
+        "temp": 219,
+        "dewpt": 73,
+        "windDir": 252,
+        "windSpd": 1
+      },
+      {
+        "pressure": 7878,
+        "height": 2161,
+        "temp": 205,
+        "dewpt": 68,
+        "windDir": 119,
+        "windSpd": 1
+      },
+      {
+        "pressure": 7710,
+        "height": 2343,
+        "temp": 188,
+        "dewpt": 65,
+        "windDir": 101,
+        "windSpd": 1
+      },
+      {
+        "pressure": 7530,
+        "height": 2545,
+        "temp": 169,
+        "dewpt": 63,
+        "windDir": 100,
+        "windSpd": 3
+      },
+      {
+        "pressure": 7337,
+        "height": 2767,
+        "temp": 148,
+        "dewpt": 61,
+        "windDir": 102,
+        "windSpd": 4
+      },
+      {
+        "pressure": 7126,
+        "height": 3014,
+        "temp": 125,
+        "dewpt": 58,
+        "windDir": 99,
+        "windSpd": 6
+      },
+      {
+        "pressure": 7000,
+        "height": 3163,
+        "temp": 112,
+        "dewpt": 52,
+        "windDir": 93,
+        "windSpd": 6
+      },
+      {
+        "pressure": 6896,
+        "height": 3289,
+        "temp": 101,
+        "dewpt": 47,
+        "windDir": 88,
+        "windSpd": 6
+      },
+      {
+        "pressure": 6648,
+        "height": 3593,
+        "temp": 77,
+        "dewpt": 18,
+        "windDir": 75,
+        "windSpd": 5
+      },
+      {
+        "pressure": 6382,
+        "height": 3929,
+        "temp": 53,
+        "dewpt": -14,
+        "windDir": 61,
+        "windSpd": 2
+      },
+      {
+        "pressure": 6097,
+        "height": 4302,
+        "temp": 24,
+        "dewpt": -25,
+        "windDir": 266,
+        "windSpd": 3
+      },
+      {
+        "pressure": 5791,
+        "height": 4717,
+        "temp": -5,
+        "dewpt": -36,
+        "windDir": 269,
+        "windSpd": 8
+      },
+      {
+        "pressure": 5463,
+        "height": 5182,
+        "temp": -36,
+        "dewpt": -49,
+        "windDir": 266,
+        "windSpd": 11
+      },
+      {
+        "pressure": 5113,
+        "height": 5693,
+        "temp": -71,
+        "dewpt": -78,
+        "windDir": 254,
+        "windSpd": 14
+      },
+      {
+        "pressure": 5000,
+        "height": 5863,
+        "temp": -80,
+        "dewpt": -85,
+        "windDir": 249,
+        "windSpd": 15
+      },
+      {
+        "pressure": 4768,
+        "height": 6226,
+        "temp": -99,
+        "dewpt": -101,
+        "windDir": 239,
+        "windSpd": 16
+      },
+      {
+        "pressure": 4449,
+        "height": 6755,
+        "temp": -141,
+        "dewpt": -142,
+        "windDir": 237,
+        "windSpd": 20
+      },
+      {
+        "pressure": 4156,
+        "height": 7271,
+        "temp": -154,
+        "dewpt": -210,
+        "windDir": 240,
+        "windSpd": 24
+      },
+      {
+        "pressure": 4000,
+        "height": 7558,
+        "temp": -169,
+        "dewpt": -276,
+        "windDir": 243,
+        "windSpd": 29
+      },
+      {
+        "pressure": 3886,
+        "height": 7777,
+        "temp": -181,
+        "dewpt": -326,
+        "windDir": 246,
+        "windSpd": 32
+      },
+      {
+        "pressure": 3634,
+        "height": 8274,
+        "temp": -204,
+        "dewpt": -452,
+        "windDir": 248,
+        "windSpd": 40
+      },
+      {
+        "pressure": 3401,
+        "height": 8760,
+        "temp": -234,
+        "dewpt": -516,
+        "windDir": 247,
+        "windSpd": 45
+      },
+      {
+        "pressure": 3186,
+        "height": 9234,
+        "temp": -267,
+        "dewpt": -651,
+        "windDir": 244,
+        "windSpd": 47
+      },
+      {
+        "pressure": 3000,
+        "height": 9664,
+        "temp": -298,
+        "dewpt": -642,
+        "windDir": 243,
+        "windSpd": 50
+      },
+      {
+        "pressure": 2988,
+        "height": 9694,
+        "temp": -300,
+        "dewpt": -641,
+        "windDir": 243,
+        "windSpd": 50
+      },
+      {
+        "pressure": 2805,
+        "height": 10140,
+        "temp": -329,
+        "dewpt": -647,
+        "windDir": 244,
+        "windSpd": 54
+      },
+      {
+        "pressure": 2637,
+        "height": 10574,
+        "temp": -357,
+        "dewpt": -629,
+        "windDir": 246,
+        "windSpd": 59
+      },
+      {
+        "pressure": 2500,
+        "height": 10939,
+        "temp": -383,
+        "dewpt": -625,
+        "windDir": 246,
+        "windSpd": 58
+      },
+      {
+        "pressure": 2478,
+        "height": 11000,
+        "temp": -387,
+        "dewpt": -624,
+        "windDir": 246,
+        "windSpd": 58
+      },
+      {
+        "pressure": 2332,
+        "height": 11417,
+        "temp": -417,
+        "dewpt": -664,
+        "windDir": 245,
+        "windSpd": 55
+      },
+      {
+        "pressure": 2195,
+        "height": 11831,
+        "temp": -447,
+        "dewpt": -711,
+        "windDir": 243,
+        "windSpd": 54
+      },
+      {
+        "pressure": 2057,
+        "height": 12264,
+        "temp": -478,
+        "dewpt": -734,
+        "windDir": 242,
+        "windSpd": 54
+      },
+      {
+        "pressure": 1917,
+        "height": 12723,
+        "temp": -511,
+        "dewpt": -764,
+        "windDir": 244,
+        "windSpd": 53
+      },
+      {
+        "pressure": 1778,
+        "height": 13210,
+        "temp": -549,
+        "dewpt": -779,
+        "windDir": 249,
+        "windSpd": 50
+      },
+      {
+        "pressure": 1638,
+        "height": 13728,
+        "temp": -589,
+        "dewpt": -789,
+        "windDir": 252,
+        "windSpd": 45
+      },
+      {
+        "pressure": 1500,
+        "height": 14274,
+        "temp": -626,
+        "dewpt": -799,
+        "windDir": 244,
+        "windSpd": 40
+      },
+      {
+        "pressure": 1498,
+        "height": 14282,
+        "temp": -627,
+        "dewpt": -799,
+        "windDir": 244,
+        "windSpd": 40
+      },
+      {
+        "pressure": 1359,
+        "height": 14880,
+        "temp": -666,
+        "dewpt": -808,
+        "windDir": 231,
+        "windSpd": 40
+      },
+      {
+        "pressure": 1219,
+        "height": 15530,
+        "temp": -703,
+        "dewpt": -815,
+        "windDir": 232,
+        "windSpd": 40
+      },
+      {
+        "pressure": 1080,
+        "height": 16252,
+        "temp": -718,
+        "dewpt": -822,
+        "windDir": 243,
+        "windSpd": 34
+      },
+      {
+        "pressure": 1000,
+        "height": 16698,
+        "temp": -706,
+        "dewpt": -829,
+        "windDir": 249,
+        "windSpd": 23
+      },
+      {
+        "pressure": 940,
+        "height": 17058,
+        "temp": -697,
+        "dewpt": -835,
+        "windDir": 254,
+        "windSpd": 15
+      },
+      {
+        "pressure": 810,
+        "height": 17916,
+        "temp": -667,
+        "dewpt": -845,
+        "windDir": 213,
+        "windSpd": 10
+      },
+      {
+        "pressure": 706,
+        "height": 18754,
+        "temp": -645,
+        "dewpt": -872,
+        "windDir": 164,
+        "windSpd": 4
+      },
+      {
+        "pressure": 700,
+        "height": 18808,
+        "temp": -643,
+        "dewpt": -873,
+        "windDir": 165,
+        "windSpd": 4
+      },
+      {
+        "pressure": 622,
+        "height": 19564,
+        "temp": -622,
+        "dewpt": -887,
+        "windDir": 177,
+        "windSpd": 7
+      },
+      {
+        "pressure": 543,
+        "height": 20409,
+        "temp": -585,
+        "dewpt": -902,
+        "windDir": 152,
+        "windSpd": 6
+      },
+      {
+        "pressure": 500,
+        "height": 20928,
+        "temp": -569,
+        "dewpt": -909,
+        "windDir": 138,
+        "windSpd": 10
+      },
+      {
+        "pressure": 469,
+        "height": 21330,
+        "temp": -557,
+        "dewpt": -914,
+        "windDir": 128,
+        "windSpd": 13
+      },
+      {
+        "pressure": 401,
+        "height": 22337,
+        "temp": -537,
+        "dewpt": -923,
+        "windDir": 132,
+        "windSpd": 9
+      },
+      {
+        "pressure": 338,
+        "height": 23454,
+        "temp": -511,
+        "dewpt": -923,
+        "windDir": 103,
+        "windSpd": 8
+      },
+      {
+        "pressure": 278,
+        "height": 24720,
+        "temp": -492,
+        "dewpt": -936,
+        "windDir": 71,
+        "windSpd": 10
+      },
+      {
+        "pressure": 223,
+        "height": 26188,
+        "temp": -477,
+        "dewpt": -937,
+        "windDir": 78,
+        "windSpd": 13
+      },
+      {
+        "pressure": 171,
+        "height": 27945,
+        "temp": -462,
+        "dewpt": -950,
+        "windDir": 79,
+        "windSpd": 22
+      },
+      {
+        "pressure": 123,
+        "height": 30205,
+        "temp": -447,
+        "dewpt": -980,
+        "windDir": 91,
+        "windSpd": 22
+      }
+    ]
+  }
+]

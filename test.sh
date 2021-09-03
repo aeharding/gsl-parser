@@ -8,7 +8,7 @@ D=$(date +%F_%T)
 
 echo "TAP version 13"
 echo "# Node Version: $V"
-for FILE in $(ls test/*.ts); do
+for FILE in $(ls test/**/*.ts); do
   DIR="$T/$D/$N"
   rm -rf "$DIR"
   mkdir -p "$DIR"
