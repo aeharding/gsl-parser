@@ -1,5 +1,7 @@
 // Documentation: https://rucsoundings.noaa.gov/raob_format.html
 
+import { CoordinatesGslError, GslError } from "./errors";
+
 export interface Rap {
   stationId: string;
   headerLine: string;
@@ -38,6 +40,8 @@ export enum Sonde {
   SpaceDataCorp = 12,
 }
 
+export * from "./errors";
+
 export default function parseReports(asciiReports: string): Rap[] {
   const rawReports = asciiReports.split(/(\n[\s]*\n)/).filter((r) => r.trim());
 
@@ -52,7 +56,7 @@ function parseReport(asciiReport: string): Rap {
   const capeCinLine = lines.shift();
 
   if (!headerLine || !dateLine || !capeCinLine)
-    throw new Error("cape/cin line not returned");
+    throw new Error("Malformed GSL file");
 
   const { type, date } = parseDateLine(dateLine);
 
@@ -107,14 +111,14 @@ function parseLines(lines: string[]) {
   );
 
   if (!identificationLine || !stationIdLine)
-    throw new Error("Could not find identification lines for report");
+    throw new GslError("Could not find identification lines for report");
 
   const identificationData = parseIdentificationLine(identificationLine);
   const stationIdData = parseStationIdLine(stationIdLine);
 
   if (isNaN(identificationData.lat)) {
     // test case 03 - invalid position
-    throw new Error("Invalid GSL file (suspect invalid lat/lon coordinates)");
+    throw new CoordinatesGslError();
   }
 
   const dataLines = parsedLines.filter(

@@ -1,4 +1,4 @@
-import assert from "assert";
+import assert from "assert/strict";
 import * as fse from "fs-extra";
 import { run } from "../misc";
 import parse from "../../lib";
