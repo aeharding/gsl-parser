@@ -112,6 +112,11 @@ function parseLines(lines: string[]) {
   const identificationData = parseIdentificationLine(identificationLine);
   const stationIdData = parseStationIdLine(stationIdLine);
 
+  if (isNaN(identificationData.lat)) {
+    // test case 03 - invalid position
+    throw new Error("Invalid GSL file (suspect invalid lat/lon coordinates)");
+  }
+
   const dataLines = parsedLines.filter(
     (l) =>
       +l[0] === RapLineTypes.MandatoryLevel ||
