@@ -26,6 +26,8 @@ console.log(data)
 
 This project is 100% Typescript, which helps a lot! However, you can also [check out the test fixtures](test/01/expected.json).
 
+Note: Units of measurement are a little non-trivial. (For example, temperature is measured in tenths of a degree celsius.) [Check out the format docs for more.](https://rucsoundings.noaa.gov/raob_format.html)
+
 ## Limitations
 
 This parser is just tested with Op40 analyses at the moment. Other reports are untested. PRs welcome!
