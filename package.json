@@ -1,6 +1,6 @@
 {
   "name": "gsl-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parse GSL format NOAA RUC soundings",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
