@@ -7,7 +7,7 @@ export class GslError extends Error {
 
 /**
  * This is usually thrown if you provide invalid coordinates.
- * Make sure your report is in the United States
+ * Make sure your report is in the contiguous United States
  * if from rucsoundings.noaa.gov
  */
 export class CoordinatesGslError extends GslError {

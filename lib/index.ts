@@ -56,13 +56,16 @@ function parseReport(asciiReport: string): Rap {
   const capeCinLine = lines.shift();
 
   if (!headerLine || !dateLine || !capeCinLine)
-    throw new Error("Malformed GSL file");
+    throw new GslError("Malformed GSL file");
 
   const { type, date } = parseDateLine(dateLine);
 
   const { cape, cin } = parseCapeCinLine(capeCinLine);
 
   const data = parseLines(lines);
+
+  if (data.data.length === 1 && data.data[0].dewpt === 997259)
+    throw new CoordinatesGslError();
 
   return { headerLine, date, type, cape, cin, ...data };
 }
@@ -115,11 +118,6 @@ function parseLines(lines: string[]) {
 
   const identificationData = parseIdentificationLine(identificationLine);
   const stationIdData = parseStationIdLine(stationIdLine);
-
-  if (isNaN(identificationData.lat)) {
-    // test case 03 - invalid position
-    throw new CoordinatesGslError();
-  }
 
   const dataLines = parsedLines.filter(
     (l) =>
