@@ -11,8 +11,6 @@ export class GslError extends Error {
  * if from rucsoundings.noaa.gov
  */
 export class CoordinatesGslError extends GslError {
-  name = "CoordinatesGslError";
-
   constructor() {
     super("Invalid GSL file (suspect invalid lat/lon coordinates)");
     Object.setPrototypeOf(this, new.target.prototype);
