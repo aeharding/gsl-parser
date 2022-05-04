@@ -15,7 +15,7 @@ for FILE in $(ls test/**/*.ts); do
   N=$(($N + 1))
   echo "# File: $FILE" 1>&2
   echo "# Directory: $DIR" 1>&2
-  npx ts-node "$FILE" "$DIR"
+  node --loader ts-node/esm "$FILE" "$DIR"
   if [ $? = 0 ]; then
     echo "ok $N $FILE"
   else
