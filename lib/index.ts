@@ -1,6 +1,6 @@
 // Documentation: https://rucsoundings.noaa.gov/raob_format.html
 
-import { CoordinatesGslError, GslError } from "./errors";
+import { CoordinatesGslError, GslError } from "./errors.js";
 
 export interface Rap {
   stationId: string;
@@ -40,7 +40,7 @@ export enum Sonde {
   SpaceDataCorp = 12,
 }
 
-export * from "./errors";
+export * from "./errors.js";
 
 export default function parseReports(asciiReports: string): Rap[] {
   const rawReports = asciiReports.split(/(\n[\s]*\n)/).filter((r) => r.trim());
