@@ -30,4 +30,4 @@ Note: Units of measurement are a little non-trivial. (For example, temperature i
 
 ## Limitations
 
-This parser is just tested with Op40 analyses at the moment. Other reports are untested. PRs welcome!
+This parser is just tested with Op40 and GFS analyses at the moment. Other reports are untested. PRs welcome!
