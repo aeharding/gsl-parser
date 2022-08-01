@@ -140,15 +140,19 @@ interface RapIdentification {
   rtime: number;
 }
 
-function parseIdentificationLine([
-  _,
-  wban,
-  wmo,
-  lat,
-  lon,
-  elev,
-  rtime,
-]: string[]): RapIdentification {
+function parseIdentificationLine(line: string[]): RapIdentification {
+  // Sometimes there is no space between lat and lon.
+  // For example: 34.50-135.50 or -25.00-135.00
+  // So it need to get parsed out manually.
+  if (isNaN(+line[3])) {
+    const split = line[3].split("-");
+    const lastPart = split.pop();
+    const firstPart = split.join("-");
+    line.splice(3, 1, firstPart, `-${lastPart}`);
+  }
+
+  const [_, wban, wmo, lat, lon, elev, rtime] = line;
+
   return parseToNumber({
     wban,
     wmo,
