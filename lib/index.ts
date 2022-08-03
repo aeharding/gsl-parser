@@ -45,18 +45,21 @@ export * from "./errors.js";
 export default function parseReports(asciiReports: string): Rap[] {
   const rawReports = asciiReports.split(/(\n[\s]*\n)/).filter((r) => r.trim());
 
-  return rawReports.map(parseReport);
+  const parsedReports = rawReports.map(parseReport).filter(notEmpty);
+
+  if (!parsedReports.length) throw new GslError("Malformed GSL file");
+
+  return parsedReports;
 }
 
-function parseReport(asciiReport: string): Rap {
+function parseReport(asciiReport: string): Rap | undefined {
   const lines = asciiReport.split("\n");
 
   const headerLine = lines.shift();
   const dateLine = lines.shift();
   const capeCinLine = lines.shift();
 
-  if (!headerLine || !dateLine || !capeCinLine)
-    throw new GslError("Malformed GSL file");
+  if (!headerLine || !dateLine || !capeCinLine) return;
 
   const { type, date } = parseDateLine(dateLine);
 
@@ -220,4 +223,8 @@ function parseToNumber<K>(
 // 99999 is a test data line (invalid)
 function filterInvalidDataLine(dataLine: RapDatum): boolean {
   return dataLine.height !== 99999;
+}
+
+function notEmpty<TValue>(value: TValue | null | undefined): value is TValue {
+  return value !== null && value !== undefined;
 }
