@@ -1,6 +1,6 @@
 {
   "name": "gsl-parser",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Parse GSL format NOAA RUC soundings",
   "type": "module",
   "main": "./dist/index.js",
