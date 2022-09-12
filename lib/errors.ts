@@ -1,7 +1,12 @@
 export class GslError extends Error {
-  constructor(message: string) {
+  name = "GslError";
+  cause?: unknown;
+
+  constructor(message: string, cause?: unknown) {
     super(message);
     Object.setPrototypeOf(this, new.target.prototype);
+
+    if (typeof cause !== "string") this.cause = cause;
   }
 }
 
@@ -11,6 +16,9 @@ export class GslError extends Error {
  * if from rucsoundings.noaa.gov
  */
 export class CoordinatesGslError extends GslError {
+  name = "CoordinatesGslError";
+  cause?: unknown;
+
   constructor() {
     super("Invalid GSL file (suspect invalid lat/lon coordinates)");
     Object.setPrototypeOf(this, new.target.prototype);

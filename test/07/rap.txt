@@ -1,0 +1,13 @@
+<h1>Software error:</h1>
+<pre>Content-type: text/html
+
+(1)Can't open text_soundings.log: No such file or directory
+</pre>
+<p>
+For help, please send mail to the webmaster (<a href="mailto:webmaster-amb.gsl@noaa.gov">webmaster-amb.gsl@noaa.gov</a>), giving this error message 
+and the time and date of the error.
+
+</p>
+[Mon Sep 12 16:41:48 2022] get_soundings.cgi: Content-type: text/html
+[Mon Sep 12 16:41:48 2022] get_soundings.cgi: 
+[Mon Sep 12 16:41:48 2022] get_soundings.cgi: (1)Can't open text_soundings.log: No such file or directory

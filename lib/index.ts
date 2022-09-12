@@ -82,11 +82,17 @@ function parseCapeCinLine(capeCinLine: string): { cape: number; cin: number } {
 function parseDateLine(dateLine: string): { type: string; date: string } {
   const parsed = dateLine.split(/[ ]+/).filter((s) => s !== "");
 
+  try {
+    var date = new Date(
+      Date.UTC(+parsed[4], getMonth(parsed[3]), +parsed[2], +parsed[1])
+    ).toISOString();
+  } catch (error) {
+    throw new GslError("Failed to parse date line", error);
+  }
+
   return {
     type: parsed[0],
-    date: new Date(
-      Date.UTC(+parsed[4], getMonth(parsed[3]), +parsed[2], +parsed[1])
-    ).toISOString(),
+    date,
   };
 }
 
