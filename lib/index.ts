@@ -21,9 +21,20 @@ export interface RapDatum {
   pressure: number;
   height: number;
   temp: number;
-  dewpt: number;
+
+  /**
+   * dewpt is very rarely `undefined` in data error issues.
+   *
+   * In my experience, this happens with very low dewpoint values.
+   * You could probably assume dewpt of -100C
+   *
+   * For more, see: https://github.com/NOAA-GSL/GSL-Regional-Model-Forum/discussions/36
+   */
+  dewpt?: number;
+
   windDir: number;
   windSpd: number;
+
   hhmm?: number;
   bearing?: number;
   range?: number;
@@ -67,7 +78,7 @@ function parseReport(asciiReport: string): Rap | undefined {
 
   const data = parseLines(lines);
 
-  if (data.data.length === 1 && data.data[0].dewpt === 997259)
+  if (data.data.length === 1 && data.data[0].dewpt == null)
     throw new CoordinatesGslError();
 
   return { headerLine, date, type, cape, cin, ...data };
@@ -204,7 +215,7 @@ function parseDataLine([
   windDir,
   windSpd,
 ]: string[]): RapDatum {
-  return parseToNumber({
+  let parsed = parseToNumber({
     pressure,
     height,
     temp,
@@ -212,6 +223,16 @@ function parseDataLine([
     windDir,
     windSpd,
   });
+
+  if (isInvalidDewpt(parsed.dewpt)) return { ...parsed, dewpt: undefined };
+
+  return parsed;
+}
+
+// https://github.com/NOAA-GSL/GSL-Regional-Model-Forum/discussions/36
+// Filter out dewpoints above 100°C
+function isInvalidDewpt(dewpt: number) {
+  return dewpt > 1_000;
 }
 
 function parseToNumber<K>(

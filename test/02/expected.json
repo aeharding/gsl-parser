@@ -717,7 +717,6 @@
         "pressure": 3186,
         "height": 9236,
         "temp": -267,
-        "dewpt": 997259,
         "windDir": 241,
         "windSpd": 46
       },
@@ -725,7 +724,6 @@
         "pressure": 3000,
         "height": 9667,
         "temp": -299,
-        "dewpt": 61639,
         "windDir": 240,
         "windSpd": 49
       },

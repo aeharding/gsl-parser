@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 run(async () => {
   const rap = fse.readFileSync(`${__dirname}/rap.txt`).toString();
-  const result = parse(rap);
+  const result = JSON.parse(JSON.stringify(parse(rap)));
 
   const expected = fse.readJSONSync(`${__dirname}/expected.json`);
 

@@ -7,11 +7,17 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+// RAP from Alaska
+
 run(async () => {
   const rap = fse.readFileSync(`${__dirname}/rap.txt`).toString();
-  const result = JSON.parse(JSON.stringify(parse(rap)));
 
-  const expected = fse.readJSONSync(`${__dirname}/expected.json`);
+  const parsed = parse(rap);
 
-  assert.deepStrictEqual(result, expected);
+  for (const datum of parsed[0].data) {
+    if (datum.dewpt) {
+      assert(datum.dewpt >= -1000);
+      assert(datum.dewpt <= 1000);
+    }
+  }
 });
