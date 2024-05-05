@@ -3,7 +3,7 @@
 Parse GSL format ascii reports from https://rucsoundings.noaa.gov
 
 ```sh
-yarn add gsl-parser
+pnpm install --save gsl-parser
 ```
 
 then parse away! 🎉
