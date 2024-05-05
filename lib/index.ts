@@ -95,7 +95,7 @@ function parseDateLine(dateLine: string): { type: string; date: string } {
 
   try {
     var date = new Date(
-      Date.UTC(+parsed[4], getMonth(parsed[3]), +parsed[2], +parsed[1])
+      Date.UTC(+parsed[4], getMonth(parsed[3]), +parsed[2], +parsed[1]),
     ).toISOString();
   } catch (error) {
     throw new GslError("Failed to parse date line", error);
@@ -127,10 +127,10 @@ function parseLines(lines: string[]) {
   const parsedLines = lines.map((l) => l.split(/[ ]+/).filter((s) => s !== ""));
 
   const identificationLine = parsedLines.find(
-    (l) => +l[0] === RapLineTypes.Identification
+    (l) => +l[0] === RapLineTypes.Identification,
   );
   const stationIdLine = parsedLines.find(
-    (l) => +l[0] === RapLineTypes.StationID
+    (l) => +l[0] === RapLineTypes.StationID,
   );
 
   if (!identificationLine || !stationIdLine)
@@ -143,7 +143,7 @@ function parseLines(lines: string[]) {
     (l) =>
       +l[0] === RapLineTypes.MandatoryLevel ||
       +l[0] === RapLineTypes.SignificantLevel ||
-      +l[0] === RapLineTypes.SurfaceLevel
+      +l[0] === RapLineTypes.SurfaceLevel,
   );
 
   const data = parseDataLines(dataLines);
@@ -236,7 +236,7 @@ function isInvalidDewpt(dewpt: number) {
 }
 
 function parseToNumber<K>(
-  data: Record<keyof K, string>
+  data: Record<keyof K, string>,
 ): Record<keyof K, number> {
   const ret = {} as Record<keyof K, number>;
 
